@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ $1 = "bonjour" ]
+then 
+	echo "bonjour, je suis un script !"
+
+elif [ $2 = "aurevoir" ]
+then
+	echo "au revoir et bonne journée"
+fi
